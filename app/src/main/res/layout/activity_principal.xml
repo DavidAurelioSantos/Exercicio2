@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <TextView
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Login de acesso" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="219dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Senha" />
+
+    <Button
+        android:id="@+id/bLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:text="  Login  " />
+
+    <Button
+        android:id="@+id/bRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:text="Registrar" />
+
+    <EditText
+        android:id="@+id/txtLogin"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtSenha"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
