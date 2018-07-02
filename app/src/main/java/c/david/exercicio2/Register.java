@@ -25,7 +25,7 @@ public class Register extends AppCompatActivity {
         bGravar.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Toast.makeText(v.getContext(), "Passou por aqui", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(v.getContext(), "Passou por aqui", Toast.LENGTH_SHORT).show();
                 //String senha = txtSenha.getText().toString();
                 //String confirma = txtConfirmeSenha.getText().toString();
 

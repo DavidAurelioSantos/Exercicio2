@@ -11,6 +11,7 @@ import android.widget.Toast;
 public class Principal extends AppCompatActivity {
     Intent iCampoLogin;
     String campoLogin;
+    Intent iCampoRegistrar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +39,9 @@ public class Principal extends AppCompatActivity {
         bRegistrar.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 //Toast.makeText(v.getContext(), "Apertei o botão para Registrar", Toast.LENGTH_SHORT).show();
-                setContentView(R.layout.activity_register);
+                iCampoRegistrar = new Intent(v.getContext(),Register.class);
+                startActivity(iCampoRegistrar);
+                //setContentView(R.layout.activity_register);
             }
         });
     }
